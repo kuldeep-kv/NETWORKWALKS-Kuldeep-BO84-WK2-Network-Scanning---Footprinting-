@@ -48,13 +48,13 @@ Explored how Zenmap provides a graphical interface for network topology visualiz
 
 Commands Executed
 
-# 1. Identify local network interface and IP address
+1. Identify local network interface and IP address
 ifconfig
 
-# 2. Verify host connectivity
+2. Verify host connectivity
 ping -c 4 <target-or-gateway-IP>
 
-# 3. Discover active hosts on the local /24 subnet
+3. Discover active hosts on the local /24 subnet
 nmap -sn <your-IP>/24
 
 💡 Key LearningsPassive Reconnaissance & OSINT: Gathering intelligence from public search engines without directly interacting with target servers.Attack Surface Mapping: Identifying exposed email addresses and subdomains associated with an organization.Network Addressing: Understanding IP ranges and /24 CIDR subnet notation.Host Discovery: Utilizing Nmap ping scans (-sn) and Zenmap's GUI to enumerate live devices on a local network.Linux Tooling: Building hands-on fluency with Kali Linux terminal workflows.🛡️ Tools & TechnologiesCategoryTools / ConceptsOperating SystemKali LinuxOSINT & FootprintingtheHarvester, BaiduNetwork ScanningNmap, ZenmapCore Utilitiesifconfig, ping, CIDR Notation⚠️ DisclaimerAll reconnaissance and network scanning activities documented in this repository were performed strictly for educational purposes as part of a cybersecurity internship. Always ensure you have explicit authorization before scanning any network or domain.

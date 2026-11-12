@@ -34,7 +34,7 @@ theHarvester -d microsoft.com -l 1000 -b baidu
 Search across all available sources with a limit of 50 results
 theHarvester -d microsoft.com -l 50 -b all
 
-🔹 Task 2: Zenmap – Network Scanning & Host Discovery
+## 🔹 Task 2: Zenmap – Network Scanning & Host Discovery
 Worked with Zenmap and Nmap to understand network discovery and identify active hosts within a local subnet.
 
 Practical Activities
